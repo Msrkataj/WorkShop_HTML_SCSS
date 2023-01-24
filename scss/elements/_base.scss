@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1352px;
+  margin: 0 auto;
+  @include notebook {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+body {
+  font-family: $font-open-sans;
+  font-size: 10px;
+  overflow-x:hidden;
+}
+
+
+.logo {
+  font-size: 3.2em;
+  font-family: $font-raleway;
+  font-weight: 300;
+  opacity: 1;
+  color: $color-primary;
+}

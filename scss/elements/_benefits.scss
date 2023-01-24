@@ -1,0 +1,217 @@
+.sections-benefits {
+  background: $color-light-grey;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+
+  .sections-benefits-box {
+    padding: 0 100px;
+    @include tablet {
+      width: 100%;
+      padding: 0 15px;
+    }
+
+    }
+    .benefits-box-primary {
+      background: $color-white;
+      border: 1px solid #e8e9ed;
+      border-radius: 5px;
+      margin-bottom: 37px;
+      padding-top: 91px;
+      padding-left: 20px;
+      padding-bottom: 50px;
+      display: flex;
+      justify-content: space-between;
+      @include tablet {
+        align-items: center;
+        flex-direction: column-reverse!important;
+        padding: 50px 20px!important;
+      }
+
+      .box-primary-article {
+        margin-left: 35px;
+        margin-right: 169px;
+        @include tablet {
+          margin: 0;
+          margin-top: 10px;
+        }
+        }
+      }
+    }
+
+.box-primary-border {
+  border-bottom: 4px solid $color-redish;
+  width: 327.64px;
+  margin-top: 50px;
+  @include tablet {
+    display: none;
+  }
+}
+.benefits-photo-primary {
+  padding-right: 117px;
+  height: auto;
+  position: relative;
+  @include tablet {
+    width: 300px;
+    margin-left: 70px;
+  }
+  .benefits-photo-symbol-primary  {
+    background: $color-redish;
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    border-radius: 41px;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+    position: absolute;
+    top: -50px;
+    right: 115px;
+    z-index: 1;
+    @include tablet {
+      height: 90px;
+      width: 90px;
+      top: -25px;
+    }
+  }
+}
+
+
+.box-title {
+  font-family: $font-raleway;
+  font-size: 3.6em;
+  margin-bottom: 30px;
+}
+
+.box-text {
+  font-family: $font-open-sans;
+  font-size: 1.6em;
+}
+
+.sections-benefits-photo {
+  width: 100%;
+  background-size: contain;
+  position: relative;
+  z-index: 10000;
+}
+
+.benefits-box-secondary {
+  height: 370px;
+  background: $color-white;
+  display: flex;
+  border: 1px solid #e8e9ed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  @include tablet {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    justify-content: center;
+
+  }
+  .benefits-photo-secondary {
+    display: inline-flex;
+    position: relative;
+    @include tablet {
+      margin-bottom: 20px;
+    }
+    .benefits-photo-symbol-secondary {
+      width: 320px;
+      height: 320px;
+      background: $color-primary;
+      border-radius: 50%;
+      position: absolute;
+      top: -15px;
+      @include tablet {
+        width: 130px;
+        height: 130px;
+      }
+    }
+    .iphone {
+      width: 426px;
+
+      z-index: 100;
+      @include tablet {
+      width: 175px;
+      }
+    }
+  }
+  .box-secondary-article {
+    flex-direction: row-reverse;
+    margin: 10px 0;
+    margin-left: 120px;
+    @include tablet {
+      margin: 0;
+    }
+    .box-title-secondary {
+
+    }
+    .box-secondary-border {
+      border-bottom: 4px solid $color-primary;
+      width: 327.81px;
+      margin-top: 50px;
+      @include tablet {
+        display: none;
+      }
+    }
+  }
+}
+
+
+.benefits-box-tertiary {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 37.67px;
+  border: 1px solid #e8e9ed;
+  @include tablet {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 150px;
+    justify-content: center;
+  }
+  .box-tertiary-article {
+    max-width: 623px;
+    background: $color-white;
+    padding: 0 35px;
+    @include tablet {
+      width: 100%;
+      padding-bottom: 50px;
+    }
+    .box-title-tertiary {
+      margin-top: 63.33px;
+      margin-right: 206px;
+    }
+    .box-tertiary-border {
+      border-bottom: 4px solid $color-green;
+      width: 327.81px;
+      margin-top: 50px;
+      @include tablet {
+        display: none;
+      }
+    }
+  }
+  .box-photo-tertiary {
+    width: 440px;
+    height: 370px;
+    background: $color-green;
+    @include tablet {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.trumpet {
+  width: 295px;
+  margin-top: 98.21px;
+  margin-left: 62.31px;
+  @include tablet {
+    width: 300px;
+    margin-bottom: 40px;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,74 @@
+.contact {
+  background: $color-light-grey;
+  display: flex;
+  justify-content: center;
+  padding: 200px 100px 100px;
+  @include notebook-min {
+    padding: 200px 500px
+
+  }
+
+  &-section {
+
+
+    }
+
+  @include tablet {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 15px;
+  }
+
+  &-column {
+    width: 50%;
+
+    @include  tablet {
+      width: 100%;
+    }
+  }
+
+  &-title {
+    font-size: 3.0625rem;
+    line-height: 3.6875rem;
+  }
+
+  &-instruction {
+    margin: 22px 0 42px;
+    font-size: 1rem;
+    line-height: 1.375rem;
+
+    @include tablet {
+      margin: 5px 0 35px;
+    }
+  }
+
+  &-details {
+    display: flex;
+    justify-content: flex-start;
+    color: $color-grey;
+    align-items: center;
+
+    @include tablet {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .details-item {
+      color: $color-grey;
+      font-weight: 500;
+      text-decoration: none;
+
+      @include tablet {
+        margin-bottom: 10px;
+      }
+
+      &:first-of-type {
+        margin-right: 20px;
+      }
+
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+}

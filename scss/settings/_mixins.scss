@@ -1,0 +1,28 @@
+@mixin notebook {
+  @media (max-width: 1352px) {
+    @content;
+  }
+}
+@mixin notebook-min {
+  @media (min-width: 1502px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: 792px) {
+    @content;
+  }
+}
+
+@mixin banner {
+  @media (max-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 1100px) {
+    @content;
+  }
+}
